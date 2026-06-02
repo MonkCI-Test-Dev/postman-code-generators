@@ -7,7 +7,7 @@ on:
   pull_request:
 jobs:
   Unit-Tests:
-    runs-on: monkci-ubuntu-24.04-32
+    runs-on: monkci-ubuntu-24.04-8
     strategy:
       fail-fast: false
       max-parallel: 10
